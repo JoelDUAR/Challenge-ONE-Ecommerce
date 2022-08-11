@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) { 
     #cuadricula__grid{
         display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-columns: 22% 22% 22% 22%;
         grid-template-rows: 33% 33% 33%;
         gap: 1.3rem;
         width: 100vw;
@@ -12,12 +12,16 @@
         .celda{
             margin-bottom: 7vh;
             width: 100%;
-            height: 48vh;
+            height: 42vh;
         }
         
         .imagen__celda__pieza{
             width: 100%;
             height: 30vh;
+        }
+
+        #contenedor__iconos__imagen{
+            width: 6vw;
         }
         
         .celda1{

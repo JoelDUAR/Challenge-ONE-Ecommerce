@@ -6,7 +6,11 @@ document.writeln('<a href="../index.html"><img src="../../assets/Image/Logos/log
 document.writeln('</picture>');
 document.writeln('</div>');
 document.writeln('<div class="contenedor__footer__links">');
-document.writeln('<a href="../../HTML/sobre-tejidos-del-alma.html" class="icono icono__footer texto">Sobre Tejidos del Alma</a>');
+document.writeln('<a href="../../HTML/sobre-tejidos-del-alma.html" class="icono icono__footer texto" id="retorno__piezas">Sobre Tejidos del Alma</a>');
+let btn__retorno__piezas = document.querySelector("#retorno__piezas");
+btn__retorno__piezas.addEventListener("click", function(){
+    window.location.href="../../HTML/piezas.html"
+})
 document.writeln('<a href="HTML/piezas.html" class="icono icono__footer texto">Piezas</a>');
 document.writeln('<a href="../../HTML/cursos.html" class="icono icono__footer texto">Cursos</a>');
 document.writeln('<a href="../../HTML/entrevistas.html" class="icono icono__footer texto">Entrevistas</a>');

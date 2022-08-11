@@ -2,7 +2,7 @@ document.writeln('<header>');
 document.writeln('<nav class="menu">');
 document.writeln('<div id="contenedor__logo">');
 document.writeln('<picture>');
-document.writeln('<img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">');
+document.writeln('<img src="../../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">');
 document.writeln('</picture>');
 document.writeln('</div>');
 document.writeln('<div id="contenedor__botones">');

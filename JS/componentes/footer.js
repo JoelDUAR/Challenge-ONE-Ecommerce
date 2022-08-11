@@ -2,7 +2,7 @@ document.writeln('<footer id="footer">');
 document.writeln('<div id="contenedor__footer">');
 document.writeln('<div class="contenedor__footer__logo">');
 document.writeln('<picture>');
-document.writeln('<a href="../index-e-commerce.html"><img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo en Pie de página" id="logo__footer"></a>');
+document.writeln('<a href="../index.html"><img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo en Pie de página" id="logo__footer"></a>');
 document.writeln('</picture>');
 document.writeln('</div>');
 document.writeln('<div class="contenedor__footer__links">');

@@ -1,0 +1,45 @@
+#btn__menu{
+    visibility: hidden;
+    width:0;
+    height: 0;
+   }
+   
+   .lbl__menu{
+       margin: 0;
+       width:50px;
+       height:3vh;
+       position: relative;
+       cursor: pointer;
+   }
+   
+   .lbl__menu #linea1, #linea2, #linea3{
+   position: absolute;
+   content: " ";
+   background: rgb(108, 140, 109, 0.6);
+   width:30px;
+   height:5px;
+   border-radius: 5px;
+   transition: all 400ms ease-in-out;
+   }
+   
+   #linea2{
+       top: 8px;
+   }
+   
+   #linea3{
+       top: 16px;
+   }
+   
+   #btn__menu:checked ~ .lbl__menu #linea1 {
+       transform: rotate(140deg);
+       top: 8px;
+   }
+   
+   #btn__menu:checked ~ .lbl__menu #linea2 {
+       opacity: 0;
+   }
+   
+   #btn__menu:checked ~ .lbl__menu #linea3 {
+       transform: rotate(-140deg);
+       top: 8px;
+   }

@@ -1,0 +1,16 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    #titulo__formulario__agregar-producto{
+        font-size: 1.5rem;
+    }
+
+    #btn__menu-administrador {
+        width: 17.5vw;
+        text-align: center;
+        font-size: 0.69rem;
+    }
+
+    .input__form__agregar-producto, #btn__form__agregar-producto{
+        width: 96%;
+    }
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width: 1024px) and (max-width: 1899px) {
+    .menu{
+        width: 100vw;
+        height: 5vh;
+    }
+
+    #btn__menu-administrador{
+        width: 9.2vw;
+        font-size: 0.7rem;
+    }
+
+    .input__form__agregar-producto{
+        width: 45%;
+    }
+
+    #btn__form__agregar-producto{
+        width: 22vw;
+       max-width:22vw
+    }
+
+    #contenedor__footer{
+        height:40vh;
+        padding: 0 1vw;
+    }
+
+   
+}

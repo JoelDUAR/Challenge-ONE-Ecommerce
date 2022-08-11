@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #titulo__formulario__login{
+        font-size: 1.5rem;
+    }
+    
+    .input__form__login{
+        width: 90%;
+    }
+    
+    #btn__form__login{
+        width: 32vw;
+  }
+  }
+  

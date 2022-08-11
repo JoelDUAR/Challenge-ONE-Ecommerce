@@ -1,0 +1,142 @@
+.menu{
+    position: relative;
+ }
+
+ .titulo__piezas{
+    font-size: 2rem;
+    text-align: center;
+    margin:5vh auto 4vh auto;
+ }
+
+ #cuadricula__grid{
+display: grid;
+grid-template-columns: 15% 15% 15% 15% 15% 15%;
+grid-template-rows: 50% 50%;
+gap: 1.5rem;
+width: 100vw;
+justify-content: center;
+margin-bottom: 4vh;
+ }
+
+.celda{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 2vh;
+    width: 100%;
+    box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.248);
+    border-radius: 15px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen__celda__pieza{
+    width: 100%;
+    height: 30vh;
+}
+
+#contenedor__iconos__imagen{
+    width: 4vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+}
+
+
+.celda1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.celda2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.celda3{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.celda4{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.celda5{
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.celda6{
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+}
+
+.celda7{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.celda8{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.celda9{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.celda10{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.celda11{
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.celda12{
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+.titulo__parrafo__celda{
+font-family: var(--noto);
+font-weight: bold;
+line-height: 2rem;
+
+}
+
+.texto__celda{
+    font-family: var(--noto);
+    margin-bottom: 3vh;
+}
+
+#contenedor__teñido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen__teñido{
+width: 20vw;
+height: auto;
+box-shadow: 1px 1px 45px 8px #000;
+margin-bottom: 6vh;
+}
+
+
+
+#texto__entrevista{
+    width: 40vw;
+ text-align: center;
+ flex-wrap: wrap;
+ line-height: 1.5rem;
+ font-family: var(--noto);
+ font-size: 0.9rem;
+ margin: 3vh auto
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    --noto: 'Noto Serif', serif;
+}
+
+.invisible{
+    display: none;
+}

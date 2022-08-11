@@ -1,0 +1,30 @@
+#contenedor__botones{
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin-right: 0.2rem;
+    justify-content:space-between;
+}
+
+#btn__login{
+    width: 5vw;
+    height: 60%;
+    padding: 0.4rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: rgba(201, 179, 151, 0.4);
+    text-decoration: none;
+    color: #000;
+    font-family: (--noto);
+    font-size:0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor__btn__menu{
+    width: 30px;
+    top: 0;
+
+}

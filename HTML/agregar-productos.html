@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../JS/componentes/links-head.js"></script>
+    <link rel="stylesheet" href="../CSS//agregar producto/agregar-producto.css">
+    <link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook-agregar-producto.css">
+    <link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets-agregar-productos.css">
+    <link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones-agregar-producto.css">
+    <title>Tejidos del Alma - Agregar producto nuevo</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+        <div id="contenedor__logo">
+        <picture>
+        <img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">
+        </picture>
+        </div>
+        <div id="contenedor__botones">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div id="contenedor__btn__menu">
+        <input type="checkbox" id="btn__menu">
+        <label for="btn__menu" class="lbl__menu">
+        <span id="linea1"></span>
+        <span id="linea2"></span>
+        <span id="linea3"></span>
+        </label>
+        </div>
+        <a href="./piezas.html" id="btn__menu-administrador">Menú Administrador</a>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contenedor__formulario__agregar-producto">
+            <form id="formulario__agregar-producto">
+                <h2 id="titulo__formulario__agregar-producto">Agregar nuevo producto</h2>
+                <label for="url-imagen"></label>
+                <input type="text" id="url-imagen" placeholder="ingresar dirección de la imagen" class="input__form__agregar-producto">
+                <label for="categoria"></label>
+                <input type="text" id="categoria" placeholder="ingresar categoría" class="input__form__agregar-producto">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" placeholder="ingrese el nombre del producto" class="input__form__agregar-producto">
+                <label for="precio"></label>
+                <input type="text" id="precio" placeholder="Ingrese precio del producto" class="input__form__agregar-producto">
+                <button id="btn__form__agregar-producto">Agregar producto nuevo</button>
+            </form>
+        </section>
+    </main>
+    <script type="text/javascript" src="../JS/componentes/footer.js"></script>
+</body>
+</html>

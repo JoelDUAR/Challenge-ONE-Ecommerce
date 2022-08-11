@@ -1,0 +1,124 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu {
+    background: hsla(34, 32%, 69%, 0.4);
+    height:6vh;
+  }
+
+  #imagen__logo {
+    width: 80px;
+    max-width: 80px;
+    height: 90%;
+  }
+
+  #contenedor__botones {
+    width: 25vw;
+  }
+
+  #titulo__banner {
+    margin: 15vh 0 auto 4vw;
+    font-size: 2.5rem;
+  }
+
+  #contenedor__parrafo__banner {
+    width: 50vw;
+    height: 30vh;
+    margin:  8vh auto 12vh 25vw;
+    position: relative;
+  }
+
+  #banner {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  #parrafo__banner {
+    width: 50vw;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+  }
+
+  .cuadricula{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20%;
+    height: calc(100vh - 25%);
+    list-style: none;
+    margin: 2vh auto 5vh 1.5vw;
+}
+
+.imagen__celda{
+    width: 22vw;
+    height: 18vh;
+}
+
+.celda{
+    line-height: 1.9rem;
+}
+
+.celda1{
+    grid-column: 1 / 2;
+}
+.celda2{
+    grid-column: 2 / 3;
+}
+.celda3{
+    grid-column: 3 / 4;
+}
+.celda4{
+    grid-column: 4 / 5;
+}
+.celda5, .celda6{
+display: none;
+}
+
+  #contenedor__footer {
+    height: 50vh;
+    padding: 2vh 3vw;
+    flex-wrap: wrap;
+  }
+
+  #logo__footer{
+    width: 26vw;
+    order: 1;
+}
+
+  .contenedor__footer__links {
+    width: 100vw;
+    line-height: 1.7rem;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+    order: 3;
+  }
+
+  .icono__footer{
+    margin-right: 3vw;
+  }
+
+  #contenedor__textos {
+    width: 28vw;
+    order: 2
+  }
+
+  #titulo__footer{
+    font-size: 1.2rem;
+    }
+
+    #texto__footer{
+        font-size: 0.8rem
+       }
+
+  #formulario__footer {
+    width: 35vw;
+    order: 2;
+  }
+
+  .campo {
+    width: 35vw;
+    margin-bottom: 1vh;
+  }
+
+  .input__footer {
+    height: 2.7vh;
+  }
+}

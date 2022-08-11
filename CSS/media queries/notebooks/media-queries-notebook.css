@@ -1,0 +1,61 @@
+@media screen and (min-width: 1024px) and (max-width: 1899px) {
+    .menu{
+        height: 5.5vh;
+    }
+   
+    #contenedor__botones{
+        width: 16vw;
+    }
+
+    #contenedor__logo{
+        width: 60%;
+    }
+
+    #imagen__logo {
+        width: 90px;
+        max-width: 90px;
+        height: 90%;
+      }
+
+    #contenedor__parrafo__banner{
+        width: 25vw;
+        height: 30vh;
+    }
+
+    #parrafo__banner{
+        width: 25vw;
+    }
+
+    #titulo__banner{
+        font-size: 3.2rem;
+    }
+    
+    #contenedor__footer{
+        height:40vh;
+        padding: 0 1vw;
+    }
+
+    .contenedor__footer__form{
+        width: 40vw;
+    }
+
+    #contenedor__textos{
+        width:25vw;
+        margin-right: 1vw;
+    }
+
+    #titulo__footer{
+        margin-bottom: 5vh;
+        font-size: 1.2rem;
+        }
+        
+        #texto__footer{
+         font-size: 0.8rem
+        }
+
+    .campo{
+        width: 22vw;
+        margin-bottom: 1vh;
+    }
+    
+}

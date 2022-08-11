@@ -1,0 +1,45 @@
+#titulo__banner{
+    color: black;
+    position: absolute;
+    top: 0;
+    margin: 25vh 0 auto 4vw;
+    font-size: 4rem;
+    font-family: 'Noto Serif', serif;
+}
+
+#contenedor__parrafo__banner{
+    width: 20vw;
+    height: 20vh;
+    background: rgb(145, 90, 49, 0.4);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin: 55vh 0 auto 4vw;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+#parrafo__banner{
+    width: 20vw;
+    height: 100%;
+    padding: 0.8rem;
+    font-family: var(--noto);
+    font-size: 1rem;
+    line-height: 2rem;
+    background:#cdbdb3;
+   transform: translate(20px,20px);
+    border-radius: 10px;
+    box-shadow: -1px 1px 9px 1px rgba(0,0,0, 0.3);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo__parrafo{
+    font-family: var(--noto);
+    font-weight: bold;
+}
+
+.texto{
+    font-family: var(--noto);
+}

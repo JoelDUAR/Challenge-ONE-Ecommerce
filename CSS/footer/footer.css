@@ -1,0 +1,20 @@
+#footer{
+    background: #e7e6e1;
+}
+
+#contenedor__footer{
+    height:35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.icono__footer{
+    color: #000000
+}
+
+#footer_div{
+    width: 100vh;
+    height: 35vh;
+}

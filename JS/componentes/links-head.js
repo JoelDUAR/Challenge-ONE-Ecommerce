@@ -1,0 +1,17 @@
+document.writeln('<link rel="icon" href="../../assets/Image/Logos/Icono/logo2.png">');
+document.writeln('<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">');
+document.writeln('<link rel="stylesheet" href="../CSS/style.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/menu/menu.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-logo/contenedor-logo.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-logo/imagen-logo.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-botones/contenedor-botones.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-botones/contenedor-btn-menu.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/footer/footer.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/footer/contenedor-logo.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/footer/contenedor-links.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/footer/contenedor-formulario.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/footer/contenedor-copyright.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets.css">');
+document.writeln('<link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones.css">');
+document.writeln('<script src="https://kit.fontawesome.com/730791ff8d.js" crossorigin="anonymous"></script>');

@@ -27,7 +27,27 @@
     <title>Tejidos del Alma</title>
 </head>
 <body>
-    <script type="text/javascript" src="./JS/componentes/header.js"></script>
+    <header>
+        <nav class="menu">
+        <div id="contenedor__logo">
+        <picture>
+        <img src="../../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">
+        </picture>
+        </div>
+        <div id="contenedor__botones">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div id="contenedor__btn__menu">
+        <input type="checkbox" id="btn__menu">
+        <label for="btn__menu" class="lbl__menu">
+        <span id="linea1"></span>
+        <span id="linea2"></span>
+        <span id="linea3"></span>
+        </label>
+        </div>
+        <a id="btn__login" href="../../HTML/login.html">Login</a>
+        </div>
+        </nav>
+        </header>
 <main>
     <section id="contenedor__banner">
     <picture>
@@ -125,7 +145,39 @@
         </div>
     </section>
 </main>
-<script type="text/javascript" src="JS/componentes/footer.js"></script>
+<footer id="footer">
+    <div id="contenedor__footer">
+    <div class="contenedor__footer__logo">
+    <picture>
+    <a href="../index.html"><img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo en Pie de página" id="logo__footer"></a>
+    </picture>
+    </div>
+    <div class="contenedor__footer__links">');
+    <a href="../../HTML/sobre-tejidos-del-alma.html" class="icono icono__footer texto">Sobre Tejidos del Alma</a>
+    <a href="../../HTML/piezas.html" class="icono icono__footer texto">Piezas</a>
+    <a href="../../HTML/cursos.html" class="icono icono__footer texto">Cursos</a>
+    <a href="../../HTML/entrevistas.html" class="icono icono__footer texto">Entrevistas</a>
+    </div>
+    <div class="contenedor__footer__form">
+    <div id="contenedor__textos">
+    <h2 id="titulo__footer">¿Querés saber más?</h2>
+    <p id="texto__footer" classs="texto">Si estás interesado/a, podes escribirnos y te contectaremos</p>
+    </div>
+    <form action="" id="formulario__footer">
+    <label for="nombre"></label>
+    <input type="text" id="nombre" placeholder="Nombre" class="campo input__footer">
+    <label for="email"></label>
+    <input type="text" id="email" placeholder="email" class="campo input__footer">
+    <label for="textarea__footer"></label>
+    <textarea name="texto" id="textarea__footer" cols="30" rows="10" class="campo" placeholder="Escriba aquí su mensaje"></textarea>
+    <button id="boton__formulario">Enviar</button>
+    </form>
+    </div>
+    </div>
+    <div id="contenedor__footer__copyright">
+    <p id="copyright">Desarrollado por Joel Dupraz. 2022</p>
+    </div>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="./JS/titulo-banner.js"></script>
 </body>

@@ -12,20 +12,22 @@
 <link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-logo/imagen-logo.css">
 <link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-botones/contenedor-botones.css">
 <link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-botones/contenedor-btn-menu.css">
+<link rel="stylesheet" href="../CSS/menu/contenedor/contenedor-buscador/contenedor-buscador.css">
+<link rel="stylesheet" href="../CSS/agregar producto/agregar-producto.css">
+<link rel="stylesheet" href="../CSS/piezas, cursos, entrevistas/grid.css ">
 <link rel="stylesheet" href="../CSS/footer/footer.css">
 <link rel="stylesheet" href="../CSS/footer/contenedor-logo.css">
 <link rel="stylesheet" href="../CSS/footer/contenedor-links.css">
 <link rel="stylesheet" href="../CSS/footer/contenedor-formulario.css">
 <link rel="stylesheet" href="../CSS/footer/contenedor-copyright.css">
 <link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook.css">
+<link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook-piezas-cursos-entrevistas.css">
 <link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets.css">
+<link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets-piezas-cursos-entrevistas.css">
 <link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones.css">
-<script src="https://kit.fontawesome.com/730791ff8d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../CSS/piezas, cursos, entrevistas/grid.css ">
-    <link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook-piezas-cursos-entrevistas.css">
-    <link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets-piezas-cursos-entrevistas.css">
-    <link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones-piezas-cursos-entrevistas.css">
-    <title>Tejidos del Alma - Piezas</title>
+<link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones-piezas-cursos-entrevistas.css">
+<script src="https://kit.fontawesome.com/730791ff8d.js" crossorigin="anonymous"></script>   
+<title>Tejidos del Alma - Administrador</title>
 </head>
 <body>
     <header>
@@ -36,8 +38,11 @@
         </picture>
         </div>
         <div id="contenedor__botones">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <a id="btn__login" href="../../HTML/login.html">Login</a>
+            <div id="contenedor__buscador">
+                <input type="search" id="buscador" placeholder="¿Qué deseas buscar?">
+                <i class="fa-solid fa-magnifying-glass icono__buscador"></i>
+            </div>
+        <a href="./agregar-productos.html" id="btn__menu-administrador">Agregar Producto</a>
         </div>
         </nav>
         </header>
@@ -49,61 +54,109 @@
                     <ul id="cuadricula__grid">
                         <li class="celda1 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/bandolera.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                     <p class="titulo__parrafo__celda">Bandolera</p>
                     <p class="texto__celda">Desde $2000</p>
                         </li>
                         <li class="celda2 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/bolso.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                         <p class="titulo__parrafo__celda">Bolso</p>
                     <p class="texto__celda">Desde $4500</p>
                         </li>
                         <li class="celda3 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Bufanda.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Bufanda</p>
                     <p class="texto__celda">Desde $3300</p>
                         </li>
                         <li class="celda4 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Camperas.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Campera</p>
                     <p class="texto__celda">Desde $12500</p>
                         </li>
                         <li class="celda5-1 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/chal.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Chal</p>
                     <p class="texto__celda">Desde $6800</p>
                         </li>
                         <li class="celda6-1 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/chaleco.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Chaleco</p>
                     <p class="texto__celda">Desde $1500</p>
                         </li>
                         <li class="celda7 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Cuello.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Cuello</p>
                     <p class="texto__celda">Desde $1500</p>
                         </li>
                         <li class="celda8 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Gorro.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Gorro</p>
                     <p class="texto__celda">Desde $1500</p>
                         </li>
                         <li class="celda9 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/guantes.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Guantes</p>
                     <p class="texto__celda">Desde $3000</p>
                         </li>
                         <li class="celda10 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Manton.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Manton</p>
                             <p class="texto__celda">Desde $7000</p>
                         </li>
                         <li class="celda11 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor//Pantuflas.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
-                            <p class="titulo__parrafo__celda">Pantuflas</p>
+                    
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>        <p class="titulo__parrafo__celda">Pantuflas</p>
                     <p class="texto__celda">Desde $4000</p>
                         </li>
                         <li class="celda12 celda">
                             <img src="../assets/Image/Piezas/tejido-bastidor/Pullover.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Pullover</p>
                     <p class="texto__celda">Desde $1500</p>
                         </li>
@@ -114,61 +167,109 @@
                     <ul id="cuadricula__grid">
                         <li class="celda1 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/almohadon.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Almohadon</p>
                     <p class="texto__celda">Desde $4500</p>
                         </li>
                         <li class="celda2 celda">
                             <img src="../assets/Image/Piezas//bordado-sashiko/Camisa.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Camisa</p>
                     <p class="texto__celda">Desde $4000</p>
                         </li>
                         <li class="celda3 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Campera.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Campera</p>
                     <p class="texto__celda">Desde $9500</p>
                         </li>
                         <li class="celda4 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Cartera.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Bolso</p>
                     <p class="texto__celda">Desde $7500</p>
                         </li>
                         <li class="celda5-1 celda">
                             <img src="../assets/Image/Piezas//bordado-sashiko/carterita.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Carterita</p>
                     <p class="texto__celda">Desde $2900</p>
                         </li>
                         <li class="celda6-1 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Centro-mesa.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Centro de mesa</p>
                     <p class="texto__celda">Desde $2800</p>
                         </li>
                         <li class="celda7 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Conjunto.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Conjunto individual y posavasos</p>
                     <p class="texto__celda">Desde $4000</p>
                         </li>
                         <li class="celda8 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Individual.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Individual</p>
                     <p class="texto__celda">Desde $2500</p>
                         </li>
                         <li class="celda9 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Jean.png" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Jean</p>
                     <p class="texto__celda">Desde $8800</p>
                         </li>
                         <li class="celda10 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Monedero.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Monedero</p>
                             <p class="texto__celda">Desde $7900</p>
                         </li>
                         <li class="celda11 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/neceser.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Neceser</p>
                     <p class="texto__celda">Desde $4700</p>
                         </li>
                         <li class="celda12 celda">
                             <img src="../assets/Image/Piezas/bordado-sashiko/Posavaso.jpg" alt="Tejido bastidor" class="imagen__celda__pieza">
+                            <div id="contenedor__iconos__imagen">
+                                <i class="fa-solid fa-trash"></i>
+                                <i class="fa-solid fa-pencil icono-imagen"></i>
+                            </div>
                             <p class="titulo__parrafo__celda">Posavaso</p>
                     <p class="texto__celda">Desde $800</p>
                         </li>
@@ -218,5 +319,8 @@
         <p id="copyright">Desarrollado por Joel Dupraz. 2022</p>
         </div>
         </footer>
+
+        <script src="../JS/buscador.js"></script>
+        <script src="../JS/services/client-services.js"></script>
 </body>
 </html>

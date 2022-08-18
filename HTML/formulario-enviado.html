@@ -21,55 +21,37 @@
 <link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets.css">
 <link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones.css">
 <script src="https://kit.fontawesome.com/730791ff8d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../CSS//agregar producto/agregar-producto.css">
-    <link rel="stylesheet" href="../CSS/media queries/notebooks/media-queries-notebook-agregar-producto.css">
-    <link rel="stylesheet" href="../CSS/media queries/tablets/media-queries-tablets-agregar-productos.css">
-    <link rel="stylesheet" href="../CSS/media queries/smartphones/media-queries-smartphones-agregar-producto.css">
-    <title>Tejidos del Alma - Agregar producto nuevo</title>
+    <title>Tejidos del Alma - Completado</title>
 </head>
 <body>
     <header>
         <nav class="menu">
         <div id="contenedor__logo">
         <picture>
-        <img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">
+        <img src="../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo Tejidos del alma" id="imagen__logo">
         </picture>
         </div>
         <div id="contenedor__botones">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <div id="contenedor__btn__menu">
-        <a href="./administrador.html" id="btn__menu-administrador">Menú Administrador</a>
+        <a id="btn__login" href="../../HTML/login.html">Login</a>
         </div>
         </nav>
-    </header>
+        </header>
     <main>
-        <section id="contenedor__formulario__agregar-producto">
-            <form id="formulario__agregar-producto">
-                <h2 id="titulo__formulario__agregar-producto">Agregar nuevo producto</h2>
-                <label for="url-imagen"></label>
-                <input type="text" id="url-imagen" placeholder="ingresar dirección de la imagen" class="input__form__agregar-producto input__form" required>
-                <label for="categoria"></label>
-                <input type="text" id="categoria" placeholder="ingresar categoría" class="input__form__agregar-producto input__form" autocomplete="off" required>
-                <label for="nombre"></label>
-                <input type="text" id="nombre" placeholder="ingrese el nombre del producto" class="input__form__agregar-producto input__form" autocomplete="off" required maxlength="30">
-                <label for="precio"></label>
-                <input type="text" id="precio" placeholder="Ingrese precio del producto" class="input__form__agregar-producto input__form" autocomplete="off" required>
-                <button id="btn__form__agregar-producto">Agregar producto nuevo</button>
-                <span class="mensaje-error-input"></span>
-            </form>
-        </section>
+        
     </main>
+
     <footer id="footer">
         <div id="contenedor__footer">
         <div class="contenedor__footer__logo">
         <picture>
-        <a href="../index.html"><img src="../../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo en Pie de página" id="logo__footer"></a>
+        <a href="../index.html"><img src="../assets/Image/Logos/logo_-_copia-removebg-preview.png" alt="Logo en Pie de página" id="logo__footer"></a>
         </picture>
         </div>
         <div class="contenedor__footer__links">
-        <a href="../../HTML/piezas.html" class="icono icono__footer texto">Piezas</a>
-        <a href="../../HTML/cursos.html" class="icono icono__footer texto">Cursos</a>
-        <a href="../../HTML/entrevistas.html" class="icono icono__footer texto">Entrevistas</a>
+        <a href="../HTML/piezas.html" class="icono icono__footer texto">Piezas</a>
+        <a href="../index.html" class="icono icono__footer texto">Home</a>
+        <a href="../HTML/entrevistas.html" class="icono icono__footer texto">Entrevistas</a>
         </div>
         <div class="contenedor__footer__form">
         <div id="contenedor__textos">
@@ -91,9 +73,5 @@
         <p id="copyright">Desarrollado por Joel Dupraz. 2022</p>
         </div>
         </footer>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="../JS/formulario.js"></script>
-        <script type="module" src="../JS/controllers/agregar-controller.js"></script>
 </body>
 </html>

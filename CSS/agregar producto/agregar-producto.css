@@ -42,14 +42,6 @@
        border: none;
    }
 
-   #btn__form__login{
-    width: 15vw;
-    height: 5vh;
-    font-family: (--noto);
-    font-size: 1rem;
-    border-radius: 5px;
-}
-
 
 #btn__menu-administrador{
     width: 7vw;

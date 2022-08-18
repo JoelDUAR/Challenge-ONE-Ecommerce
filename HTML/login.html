@@ -36,14 +36,6 @@
         </div>
         <div id="contenedor__botones">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <div id="contenedor__btn__menu">
-        <input type="checkbox" id="btn__menu">
-        <label for="btn__menu" class="lbl__menu">
-        <span id="linea1"></span>
-        <span id="linea2"></span>
-        <span id="linea3"></span>
-        </label>
-        </div>
         <a href="../index.html" id="btn__login">Home</a>
         </div>
         </nav>
@@ -53,10 +45,12 @@
             <form id="formulario__login">
                 <h2 id="titulo__formulario__login">Iniciar Sesión</h2>
                 <label for="form__email"></label>
-                <input type="email" id="form__email" class="input__form__login" placeholder="Escriba aqui su correo electrónico">
+                <input type="email" id="form__email" class="input__form__login input__form" placeholder="Escriba aqui su correo electrónico" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" title="Ingrese un correo válido" autocomplete="off">
                 <label for="form__password"></label>
-                <input type="password" id="form__password" class="input__form__login" placeholder="Escriba aqui su contraseña">
+                <input type="password" id="form__password" class="input__form__login input__form" placeholder="Escriba aqui su contraseña" required autocomplete="off">
                 <button id="btn__form__login">Entrar</button>
+                <span class="mensaje-error-input"></span>
+                <p class="login__mensaje-error">*El email y/o la contraseña es incorrecto/a</p>
             </form>
         </section>
     </main>
@@ -68,7 +62,6 @@
         </picture>
         </div>
         <div class="contenedor__footer__links">
-        <a href="../HTML/sobre-tejidos-del-alma.html" class="icono icono__footer texto">Sobre Tejidos del Alma</a>
         <a href="../HTML/piezas.html" class="icono icono__footer texto">Piezas</a>
         <a href="../HTML/cursos.html" class="icono icono__footer texto">Cursos</a>
         <a href="../HTML/entrevistas.html" class="icono icono__footer texto">Entrevistas</a>
@@ -93,5 +86,7 @@
         <p id="copyright">Desarrollado por Joel Dupraz. 2022</p>
         </div>
         </footer>
+
+        <script src="../JS/formulario.js"></script>
 </body>
 </html>

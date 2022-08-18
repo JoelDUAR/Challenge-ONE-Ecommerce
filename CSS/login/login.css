@@ -38,3 +38,13 @@
     font-size: 1rem;
     border-radius: 5px;
 }
+
+.login__mensaje-error{
+    margin-top: 0.1rem;
+    color:  red;
+    opacity: 0;
+}
+
+.login__invalido{
+    opacity: 1;
+}

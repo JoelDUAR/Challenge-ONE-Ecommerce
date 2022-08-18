@@ -21,19 +21,6 @@
     font-size:0.8rem;
 }
 
-.lbl__menu{
-    margin: 0;
-    width:30px;
-    height:3vh;
-    position: relative;
-    cursor: pointer;
-}
-
-.lbl__menu #linea1, #linea2, #linea3{
-width:25px;
-height:4px;
-}
-
   #titulo__banner {
     margin: 8vh 0 auto 2vw;
     font-size: 1.3rem;

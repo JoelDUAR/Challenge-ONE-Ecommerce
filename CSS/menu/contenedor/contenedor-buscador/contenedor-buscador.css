@@ -1,0 +1,24 @@
+#contenedor__buscador{
+display: flex;
+justify-content:space-between;
+align-items:center;
+width: 50%;
+padding: 0.4rem;
+border: 1px solid #000;
+border-radius: 50px;
+cursor: pointer;
+background-color: white;
+}
+
+#buscador{
+    border:none;
+    width: 100%;
+    font-family: var(--noto);
+    font-size: 0.9rem;
+    background-color: transparent;
+    outline: none;
+}
+
+#buscador:active, #buscador:focus{
+    border:none;
+}
